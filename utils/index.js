@@ -1,11 +1,11 @@
 export async function storefront(query, variables = {}) {
 
   const response = await fetch(
-    "https://new-electronics-booth.myshopify.com/api/2021-07/graphql.json", {
+    process.env.NEXT_PUBLIC_API_URL, {
     method: "POST",
     headers: {
       "Content-Type": "application/json",
-      "X-Shopify-Storefront-Access-Token": "9a0d1f67f389cb25faed1a32edc136cf"
+      "X-Shopify-Storefront-Access-Token": process.env.NEXT_PUBLIC_ACCESS_TOKEN
     },
     body: JSON.stringify({ query, variables })
   }
