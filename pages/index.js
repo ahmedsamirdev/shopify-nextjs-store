@@ -5,10 +5,10 @@ import { storefront } from "../utils/index";
 
 export default function Home({ products }) {
   return (
-    <div className="">
+    <div className=" font-sans">
       <Hero />
       <Head>
-        <title>Create Next App</title>
+        <title>Shopify - Nextjs Store</title>
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Products products={products} />

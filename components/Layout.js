@@ -1,22 +1,12 @@
-import Header from "../components/Header"
+import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Layout({ children }) {
   return (
     <>
-   <Header />
-      <main>{children}</main>
-      <footer className="flex mt-10 items-center justify-center w-full h-24 border-t">
-        <a
-          className="flex items-center justify-center"
-          href="https://vercel.com?utm_source=create-next-app&utm_medium=default-template&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Powered by{' '}
-          <img src="/vercel.svg" alt="Vercel Logo" className="h-4 ml-2" />
-        </a>
-      </footer>
+      <Header />
+      <main className="tracking-tight">{children}</main>
+      <Footer />
     </>
-  )
+  );
 }
-
