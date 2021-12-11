@@ -1,29 +1,35 @@
-# Next.js + Tailwind CSS Example
+## Shopify Next.js Store
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v2.2)](https://blog.tailwindcss.com/tailwindcss-2-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+A simple Ecommerce website with Tailwind UI, Shopify, and Next.js.
 
-It uses the new [`Just-in-Time Mode`](https://tailwindcss.com/docs/just-in-time-mode) for Tailwind CSS.
+[Demo](http://shopify-nextjs-store-lyart.vercel.app/)
 
-## Preview
+Shopify products fetched using the Storefront GraphQL API, using Next.js as front-end and styling by assembling and customizing components from HeadlessUI UI and Tailwind.
 
-Preview the example live on [StackBlitz](http://stackblitz.com/):
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
 
-## Deploy your own
+### Home Page
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example):
+![image-20211210014805821](https://i.ibb.co/bdKhbNK/image-20211210014805821.png)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
 
-## How to use
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init) or [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/) to bootstrap the example:
+### Product Page
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
+![image-20211210014841860](https://i.ibb.co/WWY3xF4/image-20211210014841860.png)
+
+
+
+## For Development:
+
+First, run the development server:
+
+```
+npm run dev
 # or
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
+yarn dev
 ```
 
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
+Open [http://localhost:3000](http://localhost:3000/) with your browser to see the result.
+
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.

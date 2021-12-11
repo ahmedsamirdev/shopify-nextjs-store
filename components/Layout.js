@@ -5,7 +5,7 @@ export default function Layout({ children }) {
   return (
     <>
       <Header />
-      <main className="tracking-tight">{children}</main>
+      <main>{children}</main>
       <Footer />
     </>
   );

@@ -48,7 +48,7 @@ function handle({ product, products }) {
                 </h2>
                 <p className="text-sm text-gray-500 mt-2">
                   {product.tags[0]} · Updated{" "}
-                  <time datetime={product.updatedAt}>
+                  <time dateTime={product.updatedAt}>
                     {format(new Date(product.updatedAt), "dd MMM yyyy")}
                   </time>
                 </p>

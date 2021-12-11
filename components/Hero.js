@@ -6,14 +6,14 @@ function Hero() {
         <div className="pt-16 pb-80 sm:pt-24 sm:pb-40 lg:pt-40 lg:pb-48">
           <div className="relative max-w-7xl mx-auto items-center px-4 sm:px-6 lg:px-8 sm:static">
             <div className="sm:max-w-lg">
-              <h1 className="text-4xl font font-extrabold tracking-tight text-gray-800 sm:text-6xl">
+              <h1 className="text-3xl font-bold tracking-tight text-black md:text-5xl   sm:text-6xl">
                 Shop the best Electronics
               </h1>
-              <p className="mt-4  text-xl text-gray-500">
+              <h6 className="mt-4 text-gray-500   font-medium	">
                 Simple ecommerce website with Tailwind UI, Shopify and Next.js.
                 Products from Shopify using the Storefront GraphQL API, and
                 build front-end by from Tailwind UI.
-              </p>
+              </h6>
             </div>
             <div>
               <div className="mt-10">
